@@ -1,0 +1,52 @@
+{
+  "name": "ngx-bootstrap-switch",
+  "version": "0.0.1",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "tslint --type-check --project ./src/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falget/ngx-bootstrap-switch.git"
+  },
+  "author": {
+    "name": "falget",
+    "email": "falgetok@gmail.com"
+  },
+  "keywords": [
+    "angular4",
+    "switch"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falget/ngx-bootstrap-switch.git/issues"
+  },
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.13.2",
+    "@angular-devkit/build-ng-packagr": "^0.13.2",
+    "@angular/cli": "^7.2.5",
+    "@angular/compiler-cli": "^7.2.5",
+    "@types/node": "^8.9.1",
+    "ng-packagr": "^4.7.1",
+    "protractor": "~5.1.0",
+    "ts-node": "~5.0.1",
+    "tsickle": "^0.34.0",
+    "tslib": "^1.9.3",
+    "tslint": "~5.9.1",
+    "typescript": "~3.1.0"
+  },
+  "dependencies": {
+    "@angular/animations": "^7.2.5",
+	"@angular/common": "^7.2.5",
+    "@angular/compiler": "^7.2.5",
+	"@angular/core": "^7.2.5",
+	"zone.js": "^0.8.24"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ngx-bootstrap-switch",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falget/ngx-bootstrap-switch.git"
+  },
+  "author": {
+    "name": "falget",
+    "email": "falgetok@gmail.com"
+  },
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "keywords": [
+    "angular4",
+	"switch"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falget/ngx-bootstrap-switch.git/issues"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0 <8.0.0"
+  }
+}
