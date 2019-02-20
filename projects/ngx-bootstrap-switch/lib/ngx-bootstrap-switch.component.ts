@@ -1,17 +1,9 @@
-import { Component, Input, ElementRef, Output, EventEmitter, OnChanges, SimpleChange, ViewChild, Renderer2, AfterViewInit, AfterViewChecked, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ElementRef, Output, EventEmitter, OnChanges, SimpleChange, ViewChild, Renderer2, AfterViewChecked, ViewEncapsulation } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
-  encapsulation: ViewEncapsulation.None,
   selector: 'ngx-switch',
-  template: `<div #main class="bootstrap-switch bootstrap-switch-wrapper bootstrap-switch-animate bootstrap-switch-off" [ngClass]="_sizeClass + ' ' + _disabledClass" (click)="toggleStatus()">
-	<div #container class="bootstrap-switch-container"  [@statusChange]="_statusStr" >
-        <span #on class="bootstrap-switch-handle-on" [ngClass]="_onColor" [ngStyle]="{'min-width': _minWidth +'px'}">{{onText}}</span>
-        <span #mid class="bootstrap-switch-label"></span>
-        <span #off class="bootstrap-switch-handle-off " [ngClass]="_offColor">{{offText}}</span>
-    </div>
-</div>
-`,
+  templateUrl: './ngx-bootstrap-switch.component.html',
   styleUrls: ['./ngx-bootstrap-switch.component.css'],
   animations: [
     trigger('statusChange', [
@@ -19,9 +11,10 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
       state('true', style({ transform: 'translateX(0)' })),
       transition('true <=> false', animate('200ms'))
     ])
-  ]
+  ],
+  encapsulation: ViewEncapsulation.None
 })
-export class NgxBootstrapSwitchComponent implements OnChanges, AfterViewInit, AfterViewChecked {
+export class NgxBootstrapSwitchComponent implements OnChanges, AfterViewChecked {
 
   @ViewChild('on') _onSpan: ElementRef;
   @ViewChild('off') _offSpan: ElementRef;
@@ -189,10 +182,5 @@ export class NgxBootstrapSwitchComponent implements OnChanges, AfterViewInit, Af
         }
       }
     }
-  }
-
-  ngAfterViewInit() {
-    // this._calculateSize('normal');
-    // this._calculateWidth();
   }
 }

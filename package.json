@@ -1,6 +1,6 @@
 {
   "name": "ngx-bootstrap-switch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,7 +18,9 @@
   },
   "keywords": [
     "angular4",
-    "switch"
+    "angular6",
+    "ngx-switch",
+    "bootstrap-switch"
   ],
   "license": "MIT",
   "bugs": {
