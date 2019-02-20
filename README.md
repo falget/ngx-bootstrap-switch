@@ -3,6 +3,10 @@
 This is a Angular 4 Component to add a switch like input. It's basically an Angular 4 port for this: [Bootstrap-Switch](http://www.bootstrap-switch.org/).
 Compatibility with angular 4.x - 7.x
 
+See [Demo](https://falget.github.io/ngx-bootstrap-switch/)
+
+---
+
 ### Installation
 
 ```sh
