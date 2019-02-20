@@ -1,0 +1,38 @@
+.content {
+    margin-top: 50px;
+}
+.form-check-input {
+    margin-right: 5px;
+}
+.form-check,
+.form-check-input,
+.form-check-label {
+    cursor: pointer;
+}
+.selected-color {
+    width: 34px;
+}
+.input-group {
+    width: 100%;
+}
+.bg-blue {
+    background: #428bca; 
+}
+.bg-default {
+    background: #5bc0de; 
+}
+.bg-gray {
+    background: #eee; 
+}
+.bg-green {
+    background: #5cb85c; 
+}
+.bg-red {
+    background: #d9534f; 
+}
+.bg-sky-blue {
+    background: #5bc0de; 
+}
+.bg-sky-blue {
+    background: #f0ad4e; 
+}

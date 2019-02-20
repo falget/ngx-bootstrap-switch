@@ -119,10 +119,10 @@ export class NgxBootstrapSwitchComponent implements OnChanges, AfterViewInit, Af
       const width = Math.max(this._onSpan.nativeElement.clientWidth, this._offSpan.nativeElement.clientWidth, this._minWidth);
 
       this.renderer.setStyle(this._onSpan.nativeElement, 'width', width.toString() + 'px');
-      this.renderer.setStyle(this._midSpan.nativeElement, 'width', (width - 10).toString() + 'px');
+      this.renderer.setStyle(this._midSpan.nativeElement, 'width', width.toString() + 'px');
       this.renderer.setStyle(this._offSpan.nativeElement, 'width', width.toString() + 'px');
       this.renderer.setStyle(this._container.nativeElement, 'width', (width * 3).toString() + 'px');
-      this.renderer.setStyle(this._main.nativeElement, 'width', ((width * 2) - 3).toString() + 'px');
+      this.renderer.setStyle(this._main.nativeElement, 'width', (width * 2).toString() + 'px');
     }
   }
 
