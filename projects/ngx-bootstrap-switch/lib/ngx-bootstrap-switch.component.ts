@@ -33,18 +33,18 @@ export class NgxBootstrapSwitchComponent implements OnChanges, AfterViewInit, Af
   @Input() status = false;
   @Output() statusChange: EventEmitter<boolean> = new EventEmitter<boolean>();
 
-  @Input() onText = 'on';
-  @Input() offText = 'off';
-  @Input() onColor = 'bootstrap-switch-info';
-  @Input() offColor = 'bootstrap-switch-default';
+  @Input() onText = 'On';
+  @Input() offText = 'Off';
+  @Input() onColor = 'bootstrap-switch-green';
+  @Input() offColor = 'bootstrap-switch-red';
   @Input() size = 'normal';
   @Input() disabled = false;
 
   _statusStr = 'false';
 
   // styles properties
-  _onColor = 'bootstrap-switch-info';
-  _offColor = 'bootstrap-switch-default';
+  _onColor = 'bootstrap-switch-green';
+  _offColor = 'bootstrap-switch-red';
   _minWidth = 60;
   _sizeClass = 'bootstrap-switch-normal';
   _disabledClass = '';
