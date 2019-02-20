@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
   }
 
-  private onSwitchChange(event: any) {
+  public onSwitchChange(event: any) {
     console.log(event);
   }
 }

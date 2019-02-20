@@ -1,3 +1,8 @@
+[![npm version](https://badge.fury.io/js/ngx-bootstrap-switch.svg)](https://badge.fury.io/js/ngx-bootstrap-switch)
+[![gzip bundle size](http://img.badgesize.io/https://unpkg.com/ngx-bootstrap-switch@latest/bundles/ngx-bootstrap-switch.umd.min.js?compression=gzip&style=flat-square)][ng-select-url]
+
+[ng-select-url]: https://unpkg.com/ngx-bootstrap-switch@latest
+
 # Angular Bootstrap Switch (ngx-bootstrap-switch)
 
 This is a Angular 4 Component to add a switch like input. It's basically an Angular 4 port for this: [Bootstrap-Switch](http://www.bootstrap-switch.org/).
